@@ -1,0 +1,283 @@
+{
+  "pagination": {
+    "resource": "products",
+    "page": 1,
+    "per_page": 15,
+    "total": 15,
+    "total_pages": 1,
+    "next_page": null,
+    "prev_page": null
+  },
+  "data": [
+    {
+      "barcode": "1234567890123",
+      "item_code": "item-001",
+      "name": "ข้าวหอมมะลิ 5 กิโลกรัม",
+      "unitcode": "bag",
+      "unitname": "ถุง",
+      "prices": [
+        {
+          "price_1": 180.0,
+          "price_2": 175.0,
+          "price_3": 170.0,
+          "price_4": 165.0,
+          "price_5": 160.0
+        }
+      ],
+      "dealer_code": "D001",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890124",
+      "item_code": "item-002",
+      "name": "น้ำตาล 1 กิโลกรัม",
+      "unitcode": "bag",
+      "unitname": "ถุง",
+      "prices": [
+        {
+          "price_1": 45.0,
+          "price_2": 44.0,
+          "price_3": 43.0,
+          "price_4": 42.0,
+          "price_5": 41.0
+        }
+      ],
+      "dealer_code": "D002",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890125",
+      "item_code": "item-003",
+      "name": "เกลือป่น 500 กรัม",
+      "unitcode": "bag",
+      "unitname": "ถุง",
+      "prices": [
+        {
+          "price_1": 15.0,
+          "price_2": 14.5,
+          "price_3": 14.0,
+          "price_4": 13.5,
+          "price_5": 13.0
+        }
+      ],
+      "dealer_code": "D003",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890126",
+      "item_code": "item-004",
+      "name": "น้ำมันทอด 1 ลิตร",
+      "unitcode": "bottle",
+      "unitname": "ขวด",
+      "prices": [
+        {
+          "price_1": 55.0,
+          "price_2": 54.0,
+          "price_3": 53.0,
+          "price_4": 52.0,
+          "price_5": 51.0
+        }
+      ],
+      "dealer_code": "D004",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890127",
+      "item_code": "item-005",
+      "name": "ซอสปรุงรส 700ml",
+      "unitcode": "bottle",
+      "unitname": "ขวด",
+      "prices": [
+        {
+          "price_1": 25.0,
+          "price_2": 24.5,
+          "price_3": 24.0,
+          "price_4": 23.5,
+          "price_5": 23.0
+        }
+      ],
+      "dealer_code": "D005",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890128",
+      "item_code": "item-006",
+      "name": "น้ำมันพืช 1 ลิตร",
+      "unitcode": "bottle",
+      "unitname": "ขวด",
+      "prices": [
+        {
+          "price_1": 65.0,
+          "price_2": 63.0,
+          "price_3": 62.0,
+          "price_4": 61.0,
+          "price_5": 60.0
+        }
+      ],
+      "dealer_code": "D001",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890129",
+      "item_code": "item-007",
+      "name": "น้ำปลา 700ml",
+      "unitcode": "bottle",
+      "unitname": "ขวด",
+      "prices": [
+        {
+          "price_1": 40.0,
+          "price_2": 39.0,
+          "price_3": 38.0,
+          "price_4": 37.0,
+          "price_5": 36.0
+        }
+      ],
+      "dealer_code": "D002",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890130",
+      "item_code": "item-008",
+      "name": "ซีอิ๊วขาว 600ml",
+      "unitcode": "bottle",
+      "unitname": "ขวด",
+      "prices": [
+        {
+          "price_1": 35.0,
+          "price_2": 34.0,
+          "price_3": 33.5,
+          "price_4": 33.0,
+          "price_5": 32.0
+        }
+      ],
+      "dealer_code": "D003",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890131",
+      "item_code": "item-009",
+      "name": "ไข่ไก่ เบอร์ 2 (แผง 30 ฟอง)",
+      "unitcode": "tray",
+      "unitname": "แผง",
+      "prices": [
+        {
+          "price_1": 120.0,
+          "price_2": 118.0,
+          "price_3": 116.0,
+          "price_4": 114.0,
+          "price_5": 112.0
+        }
+      ],
+      "dealer_code": "D004",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890132",
+      "item_code": "item-010",
+      "name": "น้ำอัดลม 1.5 ลิตร",
+      "unitcode": "bottle",
+      "unitname": "ขวด",
+      "prices": [
+        {
+          "price_1": 35.0,
+          "price_2": 34.0,
+          "price_3": 33.0,
+          "price_4": 32.0,
+          "price_5": 31.0
+        }
+      ],
+      "dealer_code": "D005",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890133",
+      "item_code": "item-011",
+      "name": "นมสด 1 ลิตร",
+      "unitcode": "carton",
+      "unitname": "กล่อง",
+      "prices": [
+        {
+          "price_1": 28.0,
+          "price_2": 27.5,
+          "price_3": 27.0,
+          "price_4": 26.5,
+          "price_5": 26.0
+        }
+      ],
+      "dealer_code": "D001",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890134",
+      "item_code": "item-012",
+      "name": "ขนมปังแผ่น",
+      "unitcode": "pack",
+      "unitname": "แพ็ค",
+      "prices": [
+        {
+          "price_1": 22.0,
+          "price_2": 21.5,
+          "price_3": 21.0,
+          "price_4": 20.5,
+          "price_5": 20.0
+        }
+      ],
+      "dealer_code": "D002",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890135",
+      "item_code": "item-013",
+      "name": "กาแฟสำเร็จรูป 3in1",
+      "unitcode": "box",
+      "unitname": "กล่อง",
+      "prices": [
+        {
+          "price_1": 85.0,
+          "price_2": 83.0,
+          "price_3": 81.0,
+          "price_4": 79.0,
+          "price_5": 77.0
+        }
+      ],
+      "dealer_code": "D003",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890136",
+      "item_code": "item-014",
+      "name": "ชาเขียว 500ml",
+      "unitcode": "bottle",
+      "unitname": "ขวด",
+      "prices": [
+        {
+          "price_1": 18.0,
+          "price_2": 17.5,
+          "price_3": 17.0,
+          "price_4": 16.5,
+          "price_5": 16.0
+        }
+      ],
+      "dealer_code": "D004",
+      "active_date": "2025-09-14"
+    },
+    {
+      "barcode": "1234567890137",
+      "item_code": "item-015",
+      "name": "บิสกิตช็อกโกแลต",
+      "unitcode": "pack",
+      "unitname": "แพ็ค",
+      "prices": [
+        {
+          "price_1": 32.0,
+          "price_2": 31.0,
+          "price_3": 30.0,
+          "price_4": 29.0,
+          "price_5": 28.0
+        }
+      ],
+      "dealer_code": "D005",
+      "active_date": "2025-09-14"
+    }
+  ]
+}

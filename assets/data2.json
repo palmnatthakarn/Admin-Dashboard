@@ -1,0 +1,33 @@
+{
+  "pagination": {
+    "resource": "dealers",
+    "page": 1,
+    "per_page": 5,
+    "total": 5,
+    "total_pages": 1,
+    "next_page": null,
+    "prev_page": null
+  },
+  "data": [
+    {
+      "dealer_code": "D001",
+      "dealer_name": "ร้านค้าปลีก เซเว่น"
+    },
+    {
+      "dealer_code": "D002", 
+      "dealer_name": "ร้านค้าส่ง โลตัส"
+    },
+    {
+      "dealer_code": "D003",
+      "dealer_name": "ร้านค้าท้องถิ่น บิ๊กซี"
+    },
+    {
+      "dealer_code": "D004",
+      "dealer_name": "ร้านค้าออนไลน์ ช้อปปี้"
+    },
+    {
+      "dealer_code": "D005",
+      "dealer_name": "ร้านค้าขายส่ง แม็คโคร"
+    }
+  ]
+}

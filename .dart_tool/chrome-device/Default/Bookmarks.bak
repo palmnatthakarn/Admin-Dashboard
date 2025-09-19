@@ -1,0 +1,104 @@
+{
+   "checksum": "e45450d71a2305d015342fcf05a6ceb7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13359826647135007",
+            "date_last_used": "13402638093773331",
+            "guid": "56bc7495-e158-4eb4-a191-49c9fd24055b",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Facebook",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.facebook.com/",
+            "visit_count": 127
+         }, {
+            "date_added": "13359826799473295",
+            "date_last_used": "13402660546500125",
+            "guid": "17b998c6-eb47-4ed7-901b-daec334c9703",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/?app=desktop&gl=TH&hl=th&themeRefresh=1",
+            "visit_count": 113
+         }, {
+            "date_added": "13359826880287674",
+            "date_last_used": "13402461081231117",
+            "guid": "8b7dc060-25a4-4961-a1c0-33a462a1414d",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "YouTube Music",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://music.youtube.com/",
+            "visit_count": 90
+         }, {
+            "date_added": "13398502109463517",
+            "date_last_used": "13402544592589313",
+            "guid": "5c19494a-4990-4f07-88cd-e30d54bb37a2",
+            "id": "9",
+            "name": "Claude",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://claude.ai/chat/9d0ee0b6-481e-4b8b-a8b4-074483533b51",
+            "visit_count": 21
+         }, {
+            "date_added": "13401781033957245",
+            "date_last_used": "13402632878738748",
+            "guid": "3e50ccb8-d5c5-4615-8376-3397cae226e0",
+            "id": "10",
+            "name": "ChatGPT",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://chatgpt.com/",
+            "visit_count": 16
+         } ],
+         "date_added": "13402478272181868",
+         "date_last_used": "0",
+         "date_modified": "13401781033957245",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13402478272181868",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13402478272181868",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCDfGG1yZAQAAEgAqGFVNeFhtaVorK1d4OC9VNDRxZ2RSTEE9PUgDoAYMEq0BCAkSqAEKHE5YVDRZdVgvT0tmV2EwRmRDVmZCYVZWeDRLYz0SJDVjMTk0OTRhLTQ5OTAtNGYwNy04OGNkLWUzMGQ1NGJiMzdhMhgAIAAoADCe78mplTM4mqr8oYYzQJ7vyamVM0ocTlJSNkVBN1F5aXNDaVlmVWpmU0o0ZjZSRkg4PVofIh3bVHQrYVdDRFRaQXpiekRMd3BFYzVPRFNMUkxZPWUJ9HISwj4CYAUSrQEIChKoAQocSTNuUjhaTHBTb1FCcVBxaUZ3N3pmWjRMR09zPRIkM2U1MGNjYjgtZDVjNS00NjE1LTgzNzYtMzM5N2NhZTIyNmUwGAAgACgAML+51tOVMzjc/r29kjNAv7nW05UzShxlUTJ2aHlFQ0szSGFYNUZTQnZhanhlN1dtaGM9Wh8iHe05NHV5OXMwaU1aWDBPZXlVWGhJRnB1RnQ3TlU9ZaBJHdjCPgJgBRKtAQgIEqgBChxzQzdNSEtzWlJuZlZsLy9xWDJOeHY3K0NvL1k9EiQ4YjdkYzA2MC0yNWE0LTQ5NjEtYTFjMC0zM2E0NjJhMTQxNGQYACAAKAAwuNHggZUzONjylpj2MUDY8paY9jFKHGRoRjY1NE9pS2hKV2M0bElyNFJYZk16c0ZCYz1aHyIdtmdVY0FtM29haTkrR3dlcitmNDBDR1FmUXZzZz1lELgu08I+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGRjZjJhMjE2LTY2MzEtNTlkNy04ZDkyLTQzN2VjN2UxMjU5ZBgAIAAoADDxtP6X9jE4wL7+l/YxQMC+/pf2MUoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRhMTE1ZjQ1OC1mNDViLTUyY2UtYTJkNC1hZmUyODgzMTc1MDQYACAAKAAw67T+l/YxOJu9/pf2MUCbvf6X9jFKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkM2ViYmUwNzUtNDUzYi01YTVhLTg5MGItYTBjOWNmYTNmNWQ4GAAgACgAMOy0/pf2MTjIvf6X9jFAyL3+l/YxShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEqwBCAcSpwEKHExaVnJCc3NMY2lleHBzTmJybExWb2k1MmFrQT0SJDE3Yjk5OGM2LWViNDctNGVkNy05MDFiLWRhZWMzMzRjOTcwMxgAIAAoADCyjO/glTM4/fORmPYxQLKM7+CVM0ocb1JIU3Nmc3Q1T2wwdFJVRnF0WFVxVjQvaVFJPVoeIhxsYkk4SE9sZmhyclZuVmg1MWZBQ3dSWnNpcFE9ZUP4bYDCPgJgBRKsAQgGEqcBChxpWU0vTnRzWEdzTW5QSGM1Mzl0cXJYWmpuM1U9EiQ1NmJjNzQ5NS1lMTU4LTRlYjQtYTE5MS00OWM5ZmQyNDA1NWIYACAAKAAw4d2U1pUzOJ/UiJj2MUDh3ZTWlTNKHDBQWFoxMXdoWk1KaktjWkQxSml0L3FhNXhFcz1aHiIcQUVpYVk2ODdyUEk2Y2JaRWJvZFg2SG83MmpNPWX34AQpwj4CYAUwADgA",
+   "version": 1
+}

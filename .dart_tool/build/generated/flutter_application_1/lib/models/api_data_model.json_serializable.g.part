@@ -1,0 +1,102 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ApiPagination _$ApiPaginationFromJson(Map<String, dynamic> json) =>
+    ApiPagination(
+      resource: json['resource'] as String,
+      page: ApiPagination._safeToInt(json['page']),
+      perPage: ApiPagination._safeToInt(json['per_page']),
+      total: ApiPagination._safeToInt(json['total']),
+      totalPages: ApiPagination._safeToInt(json['total_pages']),
+      nextPage: ApiPagination._safeToIntNullable(json['next_page']),
+      prevPage: ApiPagination._safeToIntNullable(json['prev_page']),
+    );
+
+Map<String, dynamic> _$ApiPaginationToJson(ApiPagination instance) =>
+    <String, dynamic>{
+      'resource': instance.resource,
+      'page': instance.page,
+      'per_page': instance.perPage,
+      'total': instance.total,
+      'total_pages': instance.totalPages,
+      'next_page': instance.nextPage,
+      'prev_page': instance.prevPage,
+    };
+
+ApiPrice _$ApiPriceFromJson(Map<String, dynamic> json) => ApiPrice(
+  price1: ApiPrice._safeToDouble(json['price_1']),
+  price2: ApiPrice._safeToDouble(json['price_2']),
+  price3: ApiPrice._safeToDouble(json['price_3']),
+  price4: ApiPrice._safeToDouble(json['price_4']),
+  price5: ApiPrice._safeToDouble(json['price_5']),
+);
+
+Map<String, dynamic> _$ApiPriceToJson(ApiPrice instance) => <String, dynamic>{
+  'price_1': instance.price1,
+  'price_2': instance.price2,
+  'price_3': instance.price3,
+  'price_4': instance.price4,
+  'price_5': instance.price5,
+};
+
+ApiProduct _$ApiProductFromJson(Map<String, dynamic> json) => ApiProduct(
+  barcode: json['barcode'] as String,
+  itemCode: json['item_code'] as String,
+  name: json['name'] as String,
+  unitCode: json['unitcode'] as String,
+  unitName: json['unitname'] as String,
+  prices: (json['prices'] as List<dynamic>)
+      .map((e) => ApiPrice.fromJson(e as Map<String, dynamic>))
+      .toList(),
+  dealerCode: json['dealer_code'] as String,
+  activeDate: json['active_date'] as String,
+);
+
+Map<String, dynamic> _$ApiProductToJson(ApiProduct instance) =>
+    <String, dynamic>{
+      'barcode': instance.barcode,
+      'item_code': instance.itemCode,
+      'name': instance.name,
+      'unitcode': instance.unitCode,
+      'unitname': instance.unitName,
+      'prices': instance.prices,
+      'dealer_code': instance.dealerCode,
+      'active_date': instance.activeDate,
+    };
+
+ApiProductResponse _$ApiProductResponseFromJson(Map<String, dynamic> json) =>
+    ApiProductResponse(
+      pagination: ApiPagination.fromJson(
+        json['pagination'] as Map<String, dynamic>,
+      ),
+      data: (json['data'] as List<dynamic>)
+          .map((e) => ApiProduct.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$ApiProductResponseToJson(ApiProductResponse instance) =>
+    <String, dynamic>{'pagination': instance.pagination, 'data': instance.data};
+
+ApiDealer _$ApiDealerFromJson(Map<String, dynamic> json) => ApiDealer(
+  dealerCode: json['dealer_code'] as String,
+  dealerName: json['dealer_name'] as String,
+);
+
+Map<String, dynamic> _$ApiDealerToJson(ApiDealer instance) => <String, dynamic>{
+  'dealer_code': instance.dealerCode,
+  'dealer_name': instance.dealerName,
+};
+
+ApiDealerResponse _$ApiDealerResponseFromJson(Map<String, dynamic> json) =>
+    ApiDealerResponse(
+      pagination: ApiPagination.fromJson(
+        json['pagination'] as Map<String, dynamic>,
+      ),
+      data: (json['data'] as List<dynamic>)
+          .map((e) => ApiDealer.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$ApiDealerResponseToJson(ApiDealerResponse instance) =>
+    <String, dynamic>{'pagination': instance.pagination, 'data': instance.data};

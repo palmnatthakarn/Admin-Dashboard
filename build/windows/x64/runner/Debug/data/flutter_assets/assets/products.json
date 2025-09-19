@@ -1,0 +1,193 @@
+{
+  "pagination": {
+    "resource": "products",
+    "page": 1,
+    "per_page": 10,
+    "total": 200,
+    "total_pages": 20,
+    "next_page": 2,
+    "prev_page": null
+  },
+  "data": [
+    {
+      "barcode": "4547447016437",
+      "item_code": "item-000001",
+      "name": "ปลาแซลมอนสดใหม่ 450g",
+      "unitcode": "g",
+      "unitname": "กรัม",
+      "prices": [
+        {
+          "price_1": 150,
+          "price_2": 105,
+          "price_3": 60,
+          "price_4": 65,
+          "price_5": 70
+        }
+      ],
+      "dealer_code": "LW097",
+      "active_date": "2025-02-24"
+    },
+    {
+      "barcode": "9020279477607",
+      "item_code": "item-000002",
+      "name": "หน่อไผ่ 250g",
+      "unitcode": "g",
+      "unitname": "กรัม",
+      "prices": [
+        {
+          "price_1": 48.76,
+          "price_2": 51.42,
+          "price_3": 56.22,
+          "price_4": 63.19,
+          "price_5": 45.47
+        }
+      ],
+      "dealer_code": "TX140",
+      "active_date": "2021-02-09"
+    },
+    {
+      "barcode": "6294060111602",
+      "item_code": "item-000003",
+      "name": "ไอศกรีม 200g",
+      "unitcode": "g",
+      "unitname": "กรัม",
+      "prices": [
+        {
+          "price_1": 105.73,
+          "price_2": 100.58,
+          "price_3": 103.39,
+          "price_4": 105.02,
+          "price_5": 104.73
+        }
+      ],
+      "dealer_code": "LF413",
+      "active_date": "2023-06-28"
+    },
+    {
+      "barcode": "1826763048512",
+      "item_code": "item-000004",
+      "name": "เนื้อวัวสด 400g",
+      "unitcode": "g",
+      "unitname": "กรัม",
+      "prices": [
+        {
+          "price_1": 106.8,
+          "price_2": 107.4,
+          "price_3": 113.69,
+          "price_4": 123.22,
+          "price_5": 101.27
+        }
+      ],
+      "dealer_code": "LW097",
+      "active_date": "2020-09-10"
+    },
+    {
+      "barcode": "1410664122241",
+      "item_code": "item-000005",
+      "name": "นมข้นหวานนุ่ม 300ml",
+      "unitcode": "ml",
+      "unitname": "มิลลิลิตร",
+      "prices": [
+        {
+          "price_1": 165.76,
+          "price_2": 160.38,
+          "price_3": 169.78,
+          "price_4": 168.09,
+          "price_5": 173.53
+        }
+      ],
+      "dealer_code": "LF413",
+      "active_date": "2025-01-31"
+    },
+    {
+      "barcode": "6065691605055",
+      "item_code": "item-000006",
+      "name": "น้ำปลาพิเศษ จันทบุรี 1L",
+      "unitcode": "L",
+      "unitname": "ลิตร",
+      "prices": [
+        {
+          "price_1": 143.66,
+          "price_2": 149.15,
+          "price_3": 145.1,
+          "price_4": 157.3,
+          "price_5": 165.88
+        }
+      ],
+      "dealer_code": "WW013",
+      "active_date": "2022-06-25"
+    },
+    {
+      "barcode": "1954225883001",
+      "item_code": "item-000007",
+      "name": "อะโวคาโดคัดพิเศษ ชลบุรี 100g",
+      "unitcode": "g",
+      "unitname": "กรัม",
+      "prices": [
+        {
+          "price_1": 162.57,
+          "price_2": 166.35,
+          "price_3": 163.85,
+          "price_4": 162.97,
+          "price_5": 186.89
+        }
+      ],
+      "dealer_code": "EZ978",
+      "active_date": "2020-06-18"
+    },
+    {
+      "barcode": "7809562265223",
+      "item_code": "item-000008",
+      "name": "น้ำปลาคุณภาพ 100ml",
+      "unitcode": "ml",
+      "unitname": "มิลลิลิตร",
+      "prices": [
+        {
+          "price_1": 129.05,
+          "price_2": 129.85,
+          "price_3": 141.75,
+          "price_4": 131.78,
+          "price_5": 126.53
+        }
+      ],
+      "dealer_code": "WW013",
+      "active_date": "2020-11-23"
+    },
+    {
+      "barcode": "2482856208142",
+      "item_code": "item-000009",
+      "name": "ขนมจีบ ภาคเหนือ 6ชิ้น",
+      "unitcode": "ชิ้น",
+      "unitname": "ชิ้น",
+      "prices": [
+        {
+          "price_1": 162.79,
+          "price_2": 163.2,
+          "price_3": 171.44,
+          "price_4": 154.92,
+          "price_5": 180.11
+        }
+      ],
+      "dealer_code": "UA917",
+      "active_date": "2024-05-12"
+    },
+    {
+      "barcode": "7255493022365",
+      "item_code": "item-000010",
+      "name": "เห็ดฟาง 200g",
+      "unitcode": "g",
+      "unitname": "กรัม",
+      "prices": [
+        {
+          "price_1": 179.28,
+          "price_2": 180.12,
+          "price_3": 187.82,
+          "price_4": 177.59,
+          "price_5": 191.96
+        }
+      ],
+      "dealer_code": "TX140",
+      "active_date": "2024-11-24"
+    }
+  ]
+}

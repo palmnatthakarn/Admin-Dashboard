@@ -1,0 +1,100 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Pagination _$PaginationFromJson(Map<String, dynamic> json) => Pagination(
+  resource: json['resource'] as String,
+  page: Pagination._safeToInt(json['page']),
+  perPage: Pagination._safeToInt(json['per_page']),
+  total: Pagination._safeToInt(json['total']),
+  totalPages: Pagination._safeToInt(json['total_pages']),
+  nextPage: Pagination._safeToIntNullable(json['next_page']),
+  prevPage: Pagination._safeToIntNullable(json['prev_page']),
+);
+
+Map<String, dynamic> _$PaginationToJson(Pagination instance) =>
+    <String, dynamic>{
+      'resource': instance.resource,
+      'page': instance.page,
+      'per_page': instance.perPage,
+      'total': instance.total,
+      'total_pages': instance.totalPages,
+      'next_page': instance.nextPage,
+      'prev_page': instance.prevPage,
+    };
+
+Price _$PriceFromJson(Map<String, dynamic> json) => Price(
+  price1: (json['price_1'] as num).toDouble(),
+  price2: (json['price_2'] as num).toDouble(),
+  price3: (json['price_3'] as num).toDouble(),
+  price4: (json['price_4'] as num).toDouble(),
+  price5: (json['price_5'] as num).toDouble(),
+);
+
+Map<String, dynamic> _$PriceToJson(Price instance) => <String, dynamic>{
+  'price_1': instance.price1,
+  'price_2': instance.price2,
+  'price_3': instance.price3,
+  'price_4': instance.price4,
+  'price_5': instance.price5,
+};
+
+Product _$ProductFromJson(Map<String, dynamic> json) => Product(
+  barcode: json['barcode'] as String,
+  itemCode: json['item_code'] as String,
+  name: json['name'] as String,
+  unitCode: json['unitcode'] as String,
+  unitName: json['unitname'] as String,
+  prices: (json['prices'] as List<dynamic>)
+      .map((e) => (e as num).toDouble())
+      .toList(),
+  dealerCode: json['dealer_code'] as String,
+  activeDate: json['active_date'] as String,
+);
+
+Map<String, dynamic> _$ProductToJson(Product instance) => <String, dynamic>{
+  'barcode': instance.barcode,
+  'item_code': instance.itemCode,
+  'name': instance.name,
+  'unitcode': instance.unitCode,
+  'unitname': instance.unitName,
+  'prices': instance.prices,
+  'dealer_code': instance.dealerCode,
+  'active_date': instance.activeDate,
+};
+
+ProductResponse _$ProductResponseFromJson(Map<String, dynamic> json) =>
+    ProductResponse(
+      pagination: Pagination.fromJson(
+        json['pagination'] as Map<String, dynamic>,
+      ),
+      data: (json['data'] as List<dynamic>)
+          .map((e) => Product.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$ProductResponseToJson(ProductResponse instance) =>
+    <String, dynamic>{'pagination': instance.pagination, 'data': instance.data};
+
+Dealer _$DealerFromJson(Map<String, dynamic> json) => Dealer(
+  dealerCode: json['dealer_code'] as String,
+  dealerName: json['dealer_name'] as String,
+);
+
+Map<String, dynamic> _$DealerToJson(Dealer instance) => <String, dynamic>{
+  'dealer_code': instance.dealerCode,
+  'dealer_name': instance.dealerName,
+};
+
+DealerResponse _$DealerResponseFromJson(Map<String, dynamic> json) =>
+    DealerResponse(
+      pagination: Pagination.fromJson(
+        json['pagination'] as Map<String, dynamic>,
+      ),
+      data: (json['data'] as List<dynamic>)
+          .map((e) => Dealer.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+
+Map<String, dynamic> _$DealerResponseToJson(DealerResponse instance) =>
+    <String, dynamic>{'pagination': instance.pagination, 'data': instance.data};

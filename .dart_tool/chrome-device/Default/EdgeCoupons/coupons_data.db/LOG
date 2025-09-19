@@ -1,0 +1,31 @@
+2025/09/19-11:58:43.198 2434 Reusing MANIFEST C:\Users\NUTTHA~1\AppData\Local\Temp\flutter_tools.50fc7707\flutter_tools_chrome_device.15c3bd71\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/09/19-11:58:43.201 2434 Recovering log #42
+2025/09/19-11:58:43.204 2434 Reusing old log C:\Users\NUTTHA~1\AppData\Local\Temp\flutter_tools.50fc7707\flutter_tools_chrome_device.15c3bd71\Default\EdgeCoupons/coupons_data.db/000042.log 
+2025/09/19-11:58:43.208 2434 Delete type=0 #4
+2025/09/19-11:58:43.208 2434 Delete type=0 #7
+2025/09/19-11:58:43.208 2434 Delete type=2 #8
+2025/09/19-11:58:43.208 2434 Delete type=0 #10
+2025/09/19-11:58:43.209 2434 Delete type=2 #11
+2025/09/19-11:58:43.209 2434 Delete type=0 #13
+2025/09/19-11:58:43.209 2434 Delete type=2 #14
+2025/09/19-11:58:43.244 2434 Delete type=0 #16
+2025/09/19-11:58:43.244 2434 Delete type=2 #17
+2025/09/19-11:58:43.244 2434 Delete type=0 #19
+2025/09/19-11:58:43.245 2434 Delete type=2 #21
+2025/09/19-11:58:43.246 2434 Delete type=0 #23
+2025/09/19-11:58:43.246 2434 Delete type=2 #24
+2025/09/19-11:58:43.247 2434 Delete type=0 #26
+2025/09/19-11:58:43.247 2434 Delete type=2 #27
+2025/09/19-11:58:43.248 2434 Delete type=0 #29
+2025/09/19-11:58:43.249 2434 Delete type=2 #30
+2025/09/19-11:58:43.249 2434 Delete type=0 #32
+2025/09/19-11:58:43.275 2434 Delete type=0 #36
+2025/09/19-11:58:43.276 2434 Delete type=0 #39
+2025/09/19-11:58:44.238 599c Level-0 table #46: started
+2025/09/19-11:58:44.246 599c Level-0 table #46: 672348 bytes OK
+2025/09/19-11:58:44.250 599c Delete type=0 #42
+2025/09/19-11:58:44.251 599c Compacting 4@0 + 1@1 files
+2025/09/19-11:58:44.270 599c Generated table #47@0: 4 keys, 672256 bytes
+2025/09/19-11:58:44.270 599c Compacted 4@0 + 1@1 files => 672256 bytes
+2025/09/19-11:58:44.273 599c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/19-11:58:44.274 599c Delete type=2 #46
